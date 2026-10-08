@@ -1,0 +1,10 @@
+pareja_autora = input("Introduce los nombres de los dos componentes: ").strip()
+dispositivo = input("Introduce el nombre del dispositivo: ").strip()
+potencia_str = input("Introduce la potencia en vatios (W): ").strip()
+potencia = float(potencia_str)
+consumo_diario = potencia * 24
+print("--- INFORME ECOAUDIT ---")
+print(f"Pareja autora: {pareja_autora}")
+print(f"Dispositivo: {dispositivo}")
+print(f"Potencia: {potencia} W")
+print(f"Consumo diario: {consumo_diario} Wh")
