@@ -1,3 +1,4 @@
+from calculadora import estimar_consumo_wh, calcular_huella_co2
 print("EcoAudit CLI")
 # =====================================================================
 # EcoAudit CLI - Módulo Principal
@@ -37,6 +38,18 @@ while True:
         # Validar que el número de iteraciones sea mayor que 0
         if iteraciones > 0:
             print(f"Número de iteraciones válido: {iteraciones}")
+
+            proceso = input("Nombre del equipo/proceso: ").strip()
+            potencia = float(input("Potencia consumida en Vatios (W): "))
+            horas = float(input("Horas de uso diario: "))
+
+            consumo = estimar_consumo_wh(potencia, horas, iteraciones)
+            huella = calcular_huella_co2(consumo)
+
+            print(f"\n✅ Resultados calculados para '{proceso}':")
+            print(f"   • Consumo total: {consumo:.2f} Wh")
+            print(f"   • Huella de carbono estimada: {huella:.4f} g CO2")
+
         else:
             print("⚠️ Error: El número de iteraciones debe ser mayor que 0.")
 
