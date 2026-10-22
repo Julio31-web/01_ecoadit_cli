@@ -1,7 +1,8 @@
 from calculadora import estimar_consumo_wh, calcular_huella_co2
 
 print("EcoAudit CLI")
-
+print("    Version de Auditoria Segura")
+    
 # =====================================================================
 # EcoAudit CLI - Módulo Principal
 # =====================================================================
