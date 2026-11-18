@@ -256,32 +256,4 @@ class PatineteElectrico(Vehiculo):
         return datos
 
 
-"""
-==========================================================================
-REGISTRO DE INTERACCIÓN CON IA (PROMPT LOG)
-==========================================================================
-Herramienta consultada: Claude (Anthropic), modelo Claude Opus 5.5
-Fecha y hora: 18/11/2026 - 19:55
 
-1. Consulta exacta planteada:
-   "INSTRUCCIÓN DEFINITIVA: EJECUTA Y DESARROLLA LA SDA 2 COMPLETA.
-   [...] Desarrollar la SDA 2 completa siguiendo los requisitos
-   oficiales del profesor."
-   Texto íntegro en docs/02_prompt_desarrollo.txt (la consulta previa de
-   auditoría, sin código, está en docs/01_prompt_auditoria.txt).
-
-2. Síntesis de la respuesta recibida:
-   Claude escribió todo el código de este archivo. La versión final
-   contiene: clase base Vehiculo (constructor, conducir,
-   recargar, obtener_estado), propiedades con setters
-   defensivos, subclases CocheElectrico y PatineteElectrico con super()
-   y métodos a_diccionario(). Partió del código de ejemplo de las
-   páginas 3.1 y 4.1 del profesor y añadió las partes que son tarea
-   del alumnado (recargar, setter de kilómetros, PatineteElectrico).
-
-3. Aplicación crítica y modificaciones realizadas:
-   [PENDIENTE: lo redactan Julio y Diego. Indicad qué habéis revisado,
-   qué habéis entendido, qué habéis cambiado y por qué. No lo deis por
-   completado hasta que sea verdad.]
-==========================================================================
-"""

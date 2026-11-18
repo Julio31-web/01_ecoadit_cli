@@ -247,27 +247,4 @@ if __name__ == "__main__":
     unittest.main(verbosity=2)
 
 
-"""
-==========================================================================
-REGISTRO DE INTERACCIÓN CON IA (PROMPT LOG)
-==========================================================================
-Herramienta consultada: Claude (Anthropic), modelo Claude Opus 5.5
-Fecha y hora: 18/11/2026 - 19:55
 
-1. Consulta exacta planteada:
-   "INSTRUCCIÓN DEFINITIVA: EJECUTA Y DESARROLLA LA SDA 2 COMPLETA.
-   [...] Desarrollar la SDA 2 completa siguiendo los requisitos
-   oficiales del profesor."
-   Texto íntegro en docs/02_prompt_desarrollo.txt (la consulta previa de
-   auditoría, sin código, está en docs/01_prompt_auditoria.txt).
-
-2. Síntesis de la respuesta recibida:
-   Claude escribió las pruebas automáticas (unittest) de este archivo,
-   incluidos los escenarios que propone el profesor, y las ejecutó.
-
-3. Aplicación crítica y modificaciones realizadas:
-   [PENDIENTE: lo redactan Julio y Diego. Indicad qué habéis revisado,
-   qué habéis entendido, qué habéis cambiado y por qué. No lo deis por
-   completado hasta que sea verdad.]
-==========================================================================
-"""
