@@ -1,0 +1,11 @@
+[
+    {
+        "matricula": "1111-AAA",
+        "modelo": "Urban-E",
+        "capacidad_kwh": 50.0,
+        "nivel_bateria": 94.0,
+        "kilometros_totales": 20.0,
+        "tipo": "coche",
+        "plazas": 5
+    }
+]
